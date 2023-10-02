@@ -41,5 +41,6 @@ export default [
         },
         location: "Youtube",
         openSpots: 10,
-    }
+    },
+
 ];

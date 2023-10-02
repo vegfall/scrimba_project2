@@ -7,6 +7,7 @@ export default function MainContent() {
     const dataValues = data.map(item => {
         return (
             <Card
+                key={item.id}
                 img={item.coverImg}
                 rating={item.stats.rating}
                 reviewCount={item.stats.reviewCount}
@@ -18,6 +19,8 @@ export default function MainContent() {
     })
 
     return (
-        dataValues
+        <section className="cardSection">
+            {dataValues}
+        </section>
     )
 };

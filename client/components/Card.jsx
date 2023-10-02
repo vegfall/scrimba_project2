@@ -9,7 +9,6 @@ export default function Card(props) {
             <small>{props.rating} ({props.reviewCount}) >{props.country}</small>
             <p>{props.title}</p>
             <b>NOK{props.price};-</b>
-            <hr/>
         </div>
     )
 };
