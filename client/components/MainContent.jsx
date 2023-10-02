@@ -1,18 +1,23 @@
 import React from "react";
 import Card from "./Card";
 import art from "../images/art.png"
+import data from "../data";
 
 export default function MainContent() {
-    return (
-        <div>
+    const dataValues = data.map(item => {
+        return (
             <Card
-                img={art}
-                rating={5.0}
-                reviewCount={6}
-                country={"Norway"}
-                title={"Great art"}
-                price={1000000}
+                img={item.coverImg}
+                rating={item.stats.rating}
+                reviewCount={item.stats.reviewCount}
+                country={item.location}
+                title={item.title}
+                price={item.price}
             />
-        </div>
+        )
+    })
+
+    return (
+        dataValues
     )
 };
