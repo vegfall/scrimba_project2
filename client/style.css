@@ -9,8 +9,20 @@ body {
 }
 
 .cardSection > * {
+    background-color: darkgray;
     margin: 0 10px 0 10px;
     padding: 4px;
     border: black 2px solid;
     border-radius: 2px;
+    position: relative;
+}
+
+.cardBadge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }

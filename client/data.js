@@ -14,7 +14,7 @@ export default [
             reviewCount: 6,
         },
         location: "Norway",
-        openSpots: 1,
+        openSpots: 0,
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ export default [
             rating: 4.0,
             reviewCount: 100,
         },
-        location: "Twitter",
+        location: "Online",
         openSpots: 4,
     },
     {
@@ -39,7 +39,7 @@ export default [
             rating: 3.0,
             reviewCount: 1000,
         },
-        location: "Youtube",
+        location: "YouTube",
         openSpots: 10,
     },
 
